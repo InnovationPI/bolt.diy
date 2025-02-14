@@ -11,6 +11,9 @@ import { join } from 'path';
 
 dotenv.config();
 
+server: {
+  allowedHosts: ['boltdiy-production-65f3.up.railway.app']
+},
 // Get detailed git info with fallbacks
 const getGitInfo = () => {
   try {
